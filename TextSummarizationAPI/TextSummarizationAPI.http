@@ -1,0 +1,6 @@
+@TextSummarizationAPI_HostAddress = http://localhost:5227
+
+GET {{TextSummarizationAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "TextSummarizationAPI.Controllers.SummarizationController",
+    "Method": "Summarize",
+    "RelativePath": "api/Summarization",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputText",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "minLenght",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "maxLenght",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
